@@ -1,0 +1,6 @@
+module Pods_TableViewFactories {
+  umbrella header "Pods-TableViewFactories-umbrella.h"
+
+  export *
+  module * { export * }
+}
