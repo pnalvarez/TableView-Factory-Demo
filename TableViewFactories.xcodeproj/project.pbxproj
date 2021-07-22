@@ -24,7 +24,6 @@
 		3F0B7B9326A8ACE300026437 /* HeaderLabelTableViewCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9226A8ACE300026437 /* HeaderLabelTableViewCellBuilder.swift */; };
 		3F0B7B9526A8ADA600026437 /* SimpleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9426A8ADA600026437 /* SimpleHeaderView.swift */; };
 		3F0B7B9826A8B04F00026437 /* TableViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9726A8B04F00026437 /* TableViewFactory.swift */; };
-		3F0B7B9A26A8B05A00026437 /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9926A8B05A00026437 /* FactoryProtocol.swift */; };
 		3F0B7B9D26A8B14D00026437 /* ReceiptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9C26A8B14D00026437 /* ReceiptViewModel.swift */; };
 		3F0B7B9F26A8B2B200026437 /* SimpleHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7B9E26A8B2B200026437 /* SimpleHeaderSection.swift */; };
 		3F0B7BA226A8B48400026437 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B7BA126A8B48400026437 /* ReceiptViewController.swift */; };
@@ -33,6 +32,7 @@
 		3F1D02EC26A9C6670007E8FA /* DividerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02EB26A9C6670007E8FA /* DividerFooterView.swift */; };
 		3F1D02EE26A9C9850007E8FA /* WarningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02ED26A9C9850007E8FA /* WarningTableViewCell.swift */; };
 		3F1D02F026A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02EF26A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift */; };
+		3F1D02F226A9CC6C0007E8FA /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +55,6 @@
 		3F0B7B9226A8ACE300026437 /* HeaderLabelTableViewCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabelTableViewCellBuilder.swift; sourceTree = "<group>"; };
 		3F0B7B9426A8ADA600026437 /* SimpleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHeaderView.swift; sourceTree = "<group>"; };
 		3F0B7B9726A8B04F00026437 /* TableViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFactory.swift; sourceTree = "<group>"; };
-		3F0B7B9926A8B05A00026437 /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FactoryProtocol.swift; path = TableViewFactories/Factory/FactoryProtocol.swift; sourceTree = SOURCE_ROOT; };
 		3F0B7B9C26A8B14D00026437 /* ReceiptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewModel.swift; sourceTree = "<group>"; };
 		3F0B7B9E26A8B2B200026437 /* SimpleHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHeaderSection.swift; sourceTree = "<group>"; };
 		3F0B7BA126A8B48400026437 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		3F1D02EB26A9C6670007E8FA /* DividerFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerFooterView.swift; sourceTree = "<group>"; };
 		3F1D02ED26A9C9850007E8FA /* WarningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningTableViewCell.swift; sourceTree = "<group>"; };
 		3F1D02EF26A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningTableViewCellBuilder.swift; sourceTree = "<group>"; };
+		3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
 		720A5045FE64198C732C1EA0 /* libPods-TableViewFactories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewFactories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E432778CD8DCF1004C733B /* Pods-TableViewFactories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFactories.release.xcconfig"; path = "Target Support Files/Pods-TableViewFactories/Pods-TableViewFactories.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,10 +130,10 @@
 		3F0B7B7926A7B4AE00026437 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */,
 				3F0B7B7A26A7B4BA00026437 /* TableViewCellBuilder.swift */,
 				3F0B7B7C26A7B4FD00026437 /* TableViewSectionBuilder.swift */,
 				3F0B7B8826A7B7A600026437 /* ViewCodeProtocol.swift */,
-				3F0B7B9926A8B05A00026437 /* FactoryProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -342,6 +342,7 @@
 				3F1D02EE26A9C9850007E8FA /* WarningTableViewCell.swift in Sources */,
 				3F0B7B8B26A7B97D00026437 /* HorizontalLabelValueTableViewCellBuilder.swift in Sources */,
 				3F0B7B9826A8B04F00026437 /* TableViewFactory.swift in Sources */,
+				3F1D02F226A9CC6C0007E8FA /* FactoryProtocol.swift in Sources */,
 				3F0B7B9126A8ABBC00026437 /* HeaderLabelTableViewCell.swift in Sources */,
 				3F0B7B8926A7B7A600026437 /* ViewCodeProtocol.swift in Sources */,
 				3F0B7B9D26A8B14D00026437 /* ReceiptViewModel.swift in Sources */,
@@ -353,7 +354,6 @@
 				3F0B7B6826A7B45600026437 /* SceneDelegate.swift in Sources */,
 				3F0B7B8526A7B6FA00026437 /* HorizontalLabelValueTableViewCell.swift in Sources */,
 				3F1D02EC26A9C6670007E8FA /* DividerFooterView.swift in Sources */,
-				3F0B7B9A26A8B05A00026437 /* FactoryProtocol.swift in Sources */,
 				3F0B7B9F26A8B2B200026437 /* SimpleHeaderSection.swift in Sources */,
 				3F0B7B8F26A7BBCF00026437 /* VerticalLabelValueTableViewCellBuilder.swift in Sources */,
 				3F0B7B7D26A7B4FD00026437 /* TableViewSectionBuilder.swift in Sources */,
