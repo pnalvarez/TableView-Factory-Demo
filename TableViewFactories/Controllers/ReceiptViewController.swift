@@ -10,11 +10,11 @@ import UIKit
 class ReceiptViewController: UIViewController {
     
     private lazy var tableView: UITableView = {
-        let view = UITableView(frame: .zero)
+        let view = UITableView(frame: .zero, style: .grouped)
+        view.backgroundColor = .white
         view.separatorStyle = .none
         view.delegate = dataSource
         view.dataSource = dataSource
-        view.bounces = false
         return view
     }()
     

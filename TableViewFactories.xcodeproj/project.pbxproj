@@ -33,6 +33,8 @@
 		3F1D02EE26A9C9850007E8FA /* WarningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02ED26A9C9850007E8FA /* WarningTableViewCell.swift */; };
 		3F1D02F026A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02EF26A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift */; };
 		3F1D02F226A9CC6C0007E8FA /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */; };
+		3F1D02F426A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F326A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift */; };
+		3F1D02F626A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F526A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		3F1D02ED26A9C9850007E8FA /* WarningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningTableViewCell.swift; sourceTree = "<group>"; };
 		3F1D02EF26A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningTableViewCellBuilder.swift; sourceTree = "<group>"; };
 		3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
+		3F1D02F326A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleHorizontalLabelValueTableViewCell.swift; sourceTree = "<group>"; };
+		3F1D02F526A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleHorizontalLabelValueTableViewCellBuilder.swift; sourceTree = "<group>"; };
 		720A5045FE64198C732C1EA0 /* libPods-TableViewFactories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewFactories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E432778CD8DCF1004C733B /* Pods-TableViewFactories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFactories.release.xcconfig"; path = "Target Support Files/Pods-TableViewFactories/Pods-TableViewFactories.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +185,7 @@
 				3F0B7B8E26A7BBCF00026437 /* VerticalLabelValueTableViewCellBuilder.swift */,
 				3F0B7B9226A8ACE300026437 /* HeaderLabelTableViewCellBuilder.swift */,
 				3F1D02EF26A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift */,
+				3F1D02F526A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift */,
 			);
 			path = Builders;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				3F0B7B8C26A7BA8500026437 /* VerticalLabelValueTableViewCell.swift */,
 				3F0B7B9026A8ABBC00026437 /* HeaderLabelTableViewCell.swift */,
 				3F1D02ED26A9C9850007E8FA /* WarningTableViewCell.swift */,
+				3F1D02F326A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1D02EE26A9C9850007E8FA /* WarningTableViewCell.swift in Sources */,
+				3F1D02F626A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift in Sources */,
 				3F0B7B8B26A7B97D00026437 /* HorizontalLabelValueTableViewCellBuilder.swift in Sources */,
 				3F0B7B9826A8B04F00026437 /* TableViewFactory.swift in Sources */,
 				3F1D02F226A9CC6C0007E8FA /* FactoryProtocol.swift in Sources */,
@@ -360,6 +367,7 @@
 				3F0B7B8026A7B60E00026437 /* BaseSection.swift in Sources */,
 				3F1D02F026A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift in Sources */,
 				3F0B7BA826A8B88E00026437 /* ReceiptView.swift in Sources */,
+				3F1D02F426A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift in Sources */,
 				3F0B7B8D26A7BA8500026437 /* VerticalLabelValueTableViewCell.swift in Sources */,
 				3F0B7B7B26A7B4BA00026437 /* TableViewCellBuilder.swift in Sources */,
 			);

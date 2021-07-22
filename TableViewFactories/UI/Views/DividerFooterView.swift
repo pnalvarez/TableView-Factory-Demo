@@ -39,4 +39,8 @@ extension DividerFooterView: ViewCodeProtocol {
             make.height.equalTo(2)
         }
     }
+    
+    func configureViews() {
+        backgroundColor = .white
+    }
 }

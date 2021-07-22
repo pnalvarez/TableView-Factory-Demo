@@ -21,6 +21,8 @@ class SimpleHeaderView: UIView {
         let view = UIImageView(frame: .zero)
         view.layer.borderWidth = 1
         view.layer.borderColor = UIColor.gray.cgColor
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.contentMode = .scaleAspectFit
         return view
     }()
     

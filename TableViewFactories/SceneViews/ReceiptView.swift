@@ -32,11 +32,12 @@ extension ReceiptView: ViewCodeProtocol {
     
     func setupConstraints() {
         tableView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+            make.top.equalTo(safeAreaLayoutGuide.snp.top)
+            make.left.right.bottom.equalToSuperview()
         }
     }
     
     func configureViews() {
-        backgroundColor = .blue
+        backgroundColor = .white
     }
 }

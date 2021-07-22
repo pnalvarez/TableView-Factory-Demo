@@ -38,4 +38,9 @@ extension WarningTableViewCell: ViewCodeProtocol {
             make.left.right.equalToSuperview().inset(12)
         }
     }
+    
+    func configureViews() {
+        selectionStyle = .none
+        backgroundColor = .white
+    }
 }
