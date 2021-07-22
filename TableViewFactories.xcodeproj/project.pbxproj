@@ -35,6 +35,7 @@
 		3F1D02F226A9CC6C0007E8FA /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */; };
 		3F1D02F426A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F326A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift */; };
 		3F1D02F626A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F526A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift */; };
+		3F1D02F826A9F1E90007E8FA /* TableViewDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D02F726A9F1E90007E8FA /* TableViewDataSourceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		3F1D02F126A9CC6C0007E8FA /* FactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
 		3F1D02F326A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleHorizontalLabelValueTableViewCell.swift; sourceTree = "<group>"; };
 		3F1D02F526A9E7850007E8FA /* DoubleHorizontalLabelValueTableViewCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleHorizontalLabelValueTableViewCellBuilder.swift; sourceTree = "<group>"; };
+		3F1D02F726A9F1E90007E8FA /* TableViewDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceProtocol.swift; sourceTree = "<group>"; };
 		720A5045FE64198C732C1EA0 /* libPods-TableViewFactories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewFactories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E432778CD8DCF1004C733B /* Pods-TableViewFactories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFactories.release.xcconfig"; path = "Target Support Files/Pods-TableViewFactories/Pods-TableViewFactories.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 				3F0B7B7A26A7B4BA00026437 /* TableViewCellBuilder.swift */,
 				3F0B7B7C26A7B4FD00026437 /* TableViewSectionBuilder.swift */,
 				3F0B7B8826A7B7A600026437 /* ViewCodeProtocol.swift */,
+				3F1D02F726A9F1E90007E8FA /* TableViewDataSourceProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				3F0B7B8F26A7BBCF00026437 /* VerticalLabelValueTableViewCellBuilder.swift in Sources */,
 				3F0B7B7D26A7B4FD00026437 /* TableViewSectionBuilder.swift in Sources */,
 				3F0B7B8026A7B60E00026437 /* BaseSection.swift in Sources */,
+				3F1D02F826A9F1E90007E8FA /* TableViewDataSourceProtocol.swift in Sources */,
 				3F1D02F026A9CA2A0007E8FA /* WarningTableViewCellBuilder.swift in Sources */,
 				3F0B7BA826A8B88E00026437 /* ReceiptView.swift in Sources */,
 				3F1D02F426A9E5EA0007E8FA /* DoubleHorizontalLabelValueTableViewCell.swift in Sources */,

@@ -26,10 +26,10 @@ class ReceiptViewController: UIViewController {
     
     private let viewModel: ReceiptViewModel
     
-    private var dataSource: TableViewDataSource
+    private var dataSource: TableViewDataSourceProtocol
     private var factory: FactoryProtocol?
     
-    init(dataSource: TableViewDataSource,
+    init(dataSource: TableViewDataSourceProtocol = TableViewDataSource(),
          viewModel: ReceiptViewModel) {
         self.dataSource = dataSource
         self.viewModel = viewModel

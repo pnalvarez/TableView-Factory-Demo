@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
+class TableViewDataSource: NSObject, TableViewDataSourceProtocol {
     
     var sections: [TableViewSectionBuilder] = []
     
